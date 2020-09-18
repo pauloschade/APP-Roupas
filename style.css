@@ -41,7 +41,6 @@ main{
 
 .principal{
     display: flex;
-    flex-grow: 1; 
     flex-direction: column;
     justify-content: center;
     align-self: center;
@@ -52,9 +51,10 @@ main{
     display: flex;
     flex-direction: column;
     font-size: 3rem;
-    justify-content: flex-start;
     align-self: center;
-    margin-top: 3rem;
+    height: 50vh;; 
+    justify-content: space-around;
+    
 }
 
 
