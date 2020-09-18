@@ -13,6 +13,16 @@ body {
     height: 100%;
 }
 
+.inline-roupa{
+    height: 40vh;
+    flex-grow: 1;
+}
+
+.inline{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 main{
     flex-grow: 1;
     display: flex;
