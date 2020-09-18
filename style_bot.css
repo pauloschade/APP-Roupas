@@ -1,0 +1,33 @@
+/*BOT*/
+.bot {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;  
+
+}
+
+.bot-talk {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #444444;
+    margin-top: 3rem
+}
+
+.bot-list{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.type-bot {
+
+    display: flex;
+}
