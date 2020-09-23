@@ -1,7 +1,8 @@
-
 html {
     font-size: 16px;
     height: 100%;
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -28,7 +29,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
+    align-items: center;
 }
 
 .inicial{
@@ -40,11 +41,13 @@ main{
 }
 
 .principal{
+    flex-wrap: wrap;
+    height: 20vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-grow: 0;
+    flex-direction: row;
     align-self: center;
-
+    justify-content: space-between;
 }
 
 .titulo{
@@ -69,7 +72,7 @@ input[type=text]:focus {
 
 input[type=button], input[type=reset], input[type=submit] {
     background-color: black;
-    border: none;
+    border-radius: 7px;
     color: white;
     padding: 1.12rem 2.25rem;
     text-decoration: none;
