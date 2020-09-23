@@ -71,7 +71,7 @@ input[type=text]:focus {
 }
 
 input[type=button], input[type=reset], input[type=submit] {
-    background-color: black;
+    background-color: #9ACD32;
     border-radius: 7px;
     color: white;
     padding: 1.12rem 2.25rem;
