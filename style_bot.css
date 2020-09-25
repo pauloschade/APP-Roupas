@@ -14,12 +14,18 @@ $background-color: #363636;*/
 }
 
 
+.bot-main {
+    display: flex;
+    border-radius: 7px;
+    background-color: blue;
+    align-items: center;
+    flex-direction: column;
+}
+
 .bot-talk {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     overflow: hidden;
-    white-space: nowrap;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
     color: #444444;
