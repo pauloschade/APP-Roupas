@@ -11,7 +11,7 @@ header{
     height: 4rem;
     display: flex;
     overflow-x: auto;
-    background-color:hsl(51, 2%, 44%);
+    background-color:black;
 }
 
 .top-icon {
@@ -23,8 +23,6 @@ header{
     min-width: 3rem;
     overflow: hidden;
     white-space: nowrap;
-    font-family: sans-serif;
-    font-size: 0.8rem;
     color: #444444;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
@@ -39,7 +37,7 @@ header{
     box-shadow: 0 0 0.18rem rgba(0, 0, 0, 0.2);
     display: flex;
     overflow-x: auto;
-    background-color: hsl(51, 2%, 44%);
+    background-color:black;
 }
 
 .bottom-icon {
@@ -51,8 +49,6 @@ header{
     min-width: 3rem;
     overflow: hidden;
     white-space: nowrap;
-    font-family: sans-serif;
-    font-size: 0.8rem;
     color: #444444;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;

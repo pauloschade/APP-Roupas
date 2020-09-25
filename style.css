@@ -1,8 +1,20 @@
 html {
     font-size: 16px;
     height: 100%;
-    font-style: normal;
+    /*font-style: normal;
+    /*font-family: "Times New Roman", Times, serif;*/
+}
+
+.serif {
     font-family: "Times New Roman", Times, serif;
+  }
+  
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.baludo{
+    font-family: 'Baloo Tammudu 2';
 }
 
 body {
@@ -12,6 +24,7 @@ body {
     justify-content: center;
     align-self: center;
     height: 100%;
+    background-color: hsl(38, 77%, 86%);
 }
 
 .inline-roupa{
@@ -31,7 +44,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(63, 70%, 69%);
+    background-color: hsl(38, 77%, 86%);
 }
 
 .inicial{
