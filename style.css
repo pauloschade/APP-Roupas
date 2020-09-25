@@ -11,11 +11,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    height: 97%;
-    background-color: hsl(63, 12%, 13%);
-    padding: 2rem;
-};
-
+    height: 100%;
+}
 
 .inline-roupa{
     height: 40vh;
@@ -34,7 +31,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(63, 12%, 87%);
+    background-color: hsl(63, 70%, 69%);
 }
 
 .inicial{
