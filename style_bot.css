@@ -6,7 +6,6 @@ $second-color-1: #CC8914;
 $background-color: #363636;*/
 
 .bot {
-    align-self: flex-end;
     display: flex;
     flex-grow: 0;
     flex-direction: row;
@@ -16,20 +15,21 @@ $background-color: #363636;*/
 
 .bot-main {
     display: flex;
-    border-radius: 7px;
-    background-color: blue;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
 }
 
 .bot-talk {
+    background-color: hsl(240, 99%, 82%);
     display: flex;
-    justify-content: space-evenly;
+    border-radius: 7px;
+    justify-content: flex-start;
     overflow: hidden;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
     color: #444444;
     margin-top: 3rem
+}
 }
 
 .bot-list{

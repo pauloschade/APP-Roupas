@@ -9,9 +9,9 @@ header{
     width: 100%;
     height: 4rem;
     box-shadow: 0 0 0.18rem rgba(0, 0, 0, 0.2);
-    background-color: #;
     display: flex;
     overflow-x: auto;
+    background-color:hsl(51, 2%, 44%);
 }
 
 .top-icon {
@@ -37,9 +37,9 @@ header{
     width: 100%;
     height: 4rem;
     box-shadow: 0 0 0.18rem rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
     display: flex;
     overflow-x: auto;
+    background-color: hsl(51, 2%, 44%);
 }
 
 .bottom-icon {
