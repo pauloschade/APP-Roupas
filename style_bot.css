@@ -17,12 +17,14 @@ $background-color: #363636;*/
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .bot-talk {
     background-size: contain;
     background-color: hsl(240, 82%, 89%);
     display: flex;
+    padding: 1.5vh;
     flex-direction: column;
     border-radius: 7px;
     justify-content: flex-start;
