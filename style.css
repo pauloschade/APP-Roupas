@@ -27,15 +27,25 @@ body {
     background-color: hsl(38, 77%, 86%);
 }
 
-.inline-roupa{
-    height: 40vh;
+.inline{
     flex-grow: 1;
-    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.inline{
+.inline2{
+    flex-grow: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.inline-item{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    align-self: center;
+
 }
 
 main{
@@ -46,6 +56,27 @@ main{
     align-items: center;
     background-color: hsl(38, 77%, 86%);
 }
+
+.nome{
+    font-size: 2rem;
+    margin-top: 30rem;
+    background-color: aquamarine;
+}
+
+.nome2{
+    margin-top: 3rem;
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+
+.compra{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+
 
 .inicial{
     display: flex;
@@ -132,12 +163,6 @@ input[type=text]:focus {
 
 }
 
-.compra{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .hoodie {
     background-color: hsl(349, 0%, 27%);
     border-radius: 7px;
@@ -150,4 +175,8 @@ input[type=text]:focus {
     align-self: center;
     justify-content: space-between;
     margin: 3rem 1rem;
+}
+
+.hoodie-botao{
+    display: flex;
 }
