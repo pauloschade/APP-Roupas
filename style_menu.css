@@ -22,7 +22,8 @@ header{
     justify-content: center;
     flex-grow: 1;
     min-width: 3rem;
-    color: #444444;
+    border: 0.2rem solid white;
+    padding: 0.5rem;
 }
 
 .bottom-menu {
@@ -43,5 +44,6 @@ header{
     justify-content: center;
     flex-grow: 1;
     min-width: 3rem;
-    color: #444444;
+    border: 0.2rem solid white;
+    padding: 0.5rem;
 }
